@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MTrackingApp.MainPage"
+             BackgroundColor="White"
+             Title="M-Tracking">
+    <Grid>
+        <Image Source="loginbg.png"
+               Aspect="AspectFill"
+               HorizontalOptions="Fill"
+               VerticalOptions="Fill"
+               Opacity="0.3" />
+        <ScrollView x:Name="LandingPageLayout">
+            <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+                <Image
+                Source="capricorn_logo.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Capricorn Logistics Logo" />
+
+                <!--<Label
+                Text="Hello, World!"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                Text="Welcome to &#10;.NET Multi-platform App UI"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />-->
+
+                <Button
+                x:Name="Login"
+                Text="Login" 
+                SemanticProperties.Hint="M-Tracking"
+                Clicked="OnLoginClicked"
+                HorizontalOptions="Fill" />
+                <Button
+                x:Name="Tracking"
+                Text="Tracking" 
+                SemanticProperties.Hint="Tracking"
+                Clicked="OnTrackingClicked"
+                HorizontalOptions="Fill" />
+                <!--<Button
+                x:Name="UploadPOD"
+                Text="UploadPOD" 
+                SemanticProperties.Hint="UploadPOD"
+                Clicked="OnUploadPODClicked"
+                HorizontalOptions="Fill" />-->
+            </VerticalStackLayout>
+        </ScrollView>
+        <Grid x:Name="WebViewContainer" IsVisible="False">
+            <Grid.RowDefinitions>
+                <RowDefinition x:Name="ButtonRowDef" Height="50" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Image
+                BackgroundColor="White"
+                Aspect="AspectFill"
+                HorizontalOptions="Fill"
+                VerticalOptions="Fill"
+                Opacity="1"/>
+            <Button x:Name="HomeButton"
+                    ImageSource="home_button.png"
+                    BackgroundColor="Transparent"
+                    TextColor="White"
+                    FontSize="18"
+                    WidthRequest="40"
+                    HeightRequest="50"
+                    Padding="0,0"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Start"
+                    Margin="3"
+                    IsVisible="False"
+                    Clicked="OnHomeClicked"/>
+            <Image
+                    Source="capricorn_logo.png"
+                    HeightRequest="50"
+                    Aspect="Fill"
+                    SemanticProperties.Description="Capricorn Logistics Logo"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+
+            <WebView x:Name="MyWebView"
+                 Grid.Row="1"
+                 VerticalOptions="FillAndExpand"
+                 HorizontalOptions="FillAndExpand" />
+        </Grid>
+    </Grid>
+</ContentPage>

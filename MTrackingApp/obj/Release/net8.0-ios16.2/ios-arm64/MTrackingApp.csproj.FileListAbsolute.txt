@@ -1,0 +1,13 @@
+/Users/justmac/Downloads/MTracking/MTrackingApp/obj/Release/net8.0-ios16.2/ios-arm64/actool/_PartialAppManifest.items
+/Users/justmac/Downloads/MTracking/MTrackingApp/obj/Release/net8.0-ios16.2/ios-arm64/actool/_BundleResourceWithLogicalName.items
+/Users/justmac/Downloads/MTracking/MTrackingApp/obj/Release/net8.0-ios16.2/ios-arm64/actool/_ProcessedImageAssetsPath.items
+/Users/justmac/Downloads/MTracking/MTrackingApp/obj/Release/net8.0-ios16.2/ios-arm64/coremlc/_PartialAppManifest.items
+/Users/justmac/Downloads/MTracking/MTrackingApp/obj/Release/net8.0-ios16.2/ios-arm64/coremlc/_BundleResourceWithLogicalName.items
+/Users/justmac/Downloads/MTracking/MTrackingApp/obj/Release/net8.0-ios16.2/ios-arm64/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/justmac/Downloads/MTracking/MTrackingApp/obj/Release/net8.0-ios16.2/ios-arm64/_ProcessedBundleResourcesPath.items
+/Users/justmac/Downloads/MTracking/MTrackingApp/obj/Release/net8.0-ios16.2/ios-arm64/_ProcessedContentPath.items
+/Users/justmac/Downloads/MTracking/MTrackingApp/obj/Release/net8.0-ios16.2/ios-arm64/MTrackingApp.csproj.AssemblyReference.cache
+/Users/justmac/Downloads/MTracking/MTrackingApp/obj/Release/net8.0-ios16.2/ios-arm64/MTrackingApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/justmac/Downloads/MTracking/MTrackingApp/obj/Release/net8.0-ios16.2/ios-arm64/MTrackingApp.AssemblyInfoInputs.cache
+/Users/justmac/Downloads/MTracking/MTrackingApp/obj/Release/net8.0-ios16.2/ios-arm64/MTrackingApp.AssemblyInfo.cs
+/Users/justmac/Downloads/MTracking/MTrackingApp/obj/Release/net8.0-ios16.2/ios-arm64/MTrackingApp.csproj.CoreCompileInputs.cache
